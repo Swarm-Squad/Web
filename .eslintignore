@@ -1,0 +1,14 @@
+# Build files
+.next/
+out/
+build/
+dist/
+
+# Node modules
+node_modules/
+
+# Ignore UI components folder
+components/ui/
+
+# Logs
+*.log 

@@ -1,5 +1,5 @@
-import SwarmSquad from "@/app/swarm-squad-landing"
+import SwarmSquad from '@/app/swarm-squad-landing';
 
 export default function Home() {
-  return <SwarmSquad />
+  return <SwarmSquad />;
 }
