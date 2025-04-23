@@ -5,8 +5,12 @@ export const metadata: Metadata = {
   title: 'Swarm Squad',
   description: 'A simulation framework for multi-agent systems.',
   icons: {
-    icon: '/favicon.ico',
+    icon: [
+      { url: '/favicon.ico', sizes: 'any' },
+      { url: '/favicon.png', sizes: '256x256', type: 'image/png' },
+    ],
     shortcut: '/favicon.ico',
+    apple: '/favicon.ico',
   },
 };
 
@@ -18,9 +22,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        {/* Example direct link (usually handled by metadata.icons now):
         <link rel="icon" href="/favicon.ico" sizes="any" />
-        */}
+        <link rel="icon" href="/favicon.png" type="image/png" />
       </head>
       <body>{children}</body>
     </html>
