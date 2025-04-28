@@ -1,5 +1,5 @@
 <div align="center">
-<img src="./public/favicon.ico" width=20% alt="logo">
+<img src="./public/favicon.png" width=20% alt="logo">
 <h1>Swarm Squad | Web</h1>
 </div>
 
