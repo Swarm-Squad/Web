@@ -177,13 +177,21 @@ export default function SwarmSquad() {
 
             {/* Desktop Navigation */}
             <div className="hidden md:flex items-center space-x-8">
-              <Link
+            <Link
                 href="https://github.com/swarm-squad"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-gray-300 transition-colors flex items-center gap-2 justify-center"
               >
                 <span className="text-center">Github</span>
+              </Link>
+              <Link
+                href="https://www.youtube.com/@sang-buster"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-gray-300 transition-colors flex items-center gap-2 justify-center"
+              >
+                <span className="text-center">Youtube</span>
               </Link>
               <Link
                 href="https://docs.swarm-squad.com/"
