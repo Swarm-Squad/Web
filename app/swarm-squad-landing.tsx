@@ -228,6 +228,15 @@ export default function SwarmSquad() {
                 Github
               </Link>
               <Link
+                href="https://www.youtube.com/@sang-buster"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white hover:text-gray-300 transition-colors py-4 block w-full text-center text-2xl font-semibold"
+                onClick={() => setIsMobileMenuOpen(false)} // Close menu on click
+              >
+                Youtube
+              </Link>
+              <Link
                 href="https://docs.swarm-squad.com/"
                 target="_blank"
                 rel="noopener noreferrer"
